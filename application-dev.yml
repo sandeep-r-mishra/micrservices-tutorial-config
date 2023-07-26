@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: CONFIG-DEV
+    eureka:
+  instance:
+    prefer-ip-address: true
+    eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
